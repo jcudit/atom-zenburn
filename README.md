@@ -13,6 +13,9 @@
 ### C\# Language
 ![screenshot C# language](c-sharp.png)
 
+### Go Language
+![screenshot Go Language](go.png)
+
 ## Licensing
 
 This theme is based on [Colin Dean's Atom Zenburn](https://github.com/colindean/atom-zenburn) which is itself basd upon [Colin T.A. Gray's version](https://github.com/colinta/zenburn) for TextMate. As they were, this theme is under the MIT license.
