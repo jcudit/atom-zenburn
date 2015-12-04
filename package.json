@@ -1,11 +1,11 @@
 {
-  "name": "zenburn",
+  "name": "zenburn-classic",
   "theme": "syntax",
-  "version": "3.0.0",
-  "description": "Low contrast theme for long coding sessions, e.g. work",
+  "version": "3.1.0",
+  "description": "Low contrast theme for long coding sessions, e.g. work. Colors based on the Zenburn VIM theme https://github.com/jnurmine/Zenburn.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/colindean/atom-zenburn"
+    "url": "https://github.com/breiter/atom-zenburn"
   },
   "license": "MIT",
   "engines": {
@@ -14,6 +14,6 @@
   "readmeFilename": "README.md",
   "homepage": "https://github.com/colindean/atom-zenburn",
   "bugs": {
-    "url": "https://github.com/colindean/atom-zenburn/issues"
+    "url": "https://github.com/breiter/atom-zenburn/issues"
   }
 }
