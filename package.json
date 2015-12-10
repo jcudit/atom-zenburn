@@ -1,7 +1,7 @@
 {
   "name": "zenburn-classic",
   "theme": "syntax",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Low contrast theme for long coding sessions, e.g. work. Colors based on the Zenburn VIM theme https://github.com/jnurmine/Zenburn.",
   "repository": {
     "type": "git",

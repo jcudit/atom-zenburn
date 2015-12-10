@@ -5,16 +5,16 @@
 ## Screenshots
 
 ### C Lanugage
-![screenshot C language](c.png)
+![screenshot C language](https://raw.githubusercontent.com/breiter/atom-zenburn/master/c.png)
 
 ### Objective-C Language
-![screenshot Objective-C language](obj-c.png)
+![screenshot Objective-C language](https://raw.githubusercontent.com/breiter/atom-zenburn/master/obj-c.png)
 
 ### C\# Language
-![screenshot C# language](c-sharp.png)
+![screenshot C# language](https://raw.githubusercontent.com/breiter/atom-zenburn/master/c-sharp.png)
 
 ### Go Language
-![screenshot Go Language](go.png)
+![screenshot Go Language](https://raw.githubusercontent.com/breiter/atom-zenburn/master/go.png)
 
 ## Licensing
 
