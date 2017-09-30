@@ -5,15 +5,15 @@
   "description": "Low contrast theme for long coding sessions, e.g. work. Colors based on the Zenburn VIM theme https://github.com/jnurmine/Zenburn.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/breiter/atom-zenburn"
+    "url": "https://github.com/jcudit/atom-zenburn"
   },
   "license": "MIT",
   "engines": {
     "atom": ">=0.194.0"
   },
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/breiter/atom-zenburn",
+  "homepage": "https://github.com/jcudit/atom-zenburn",
   "bugs": {
-    "url": "https://github.com/breiter/atom-zenburn/issues"
+    "url": "https://github.com/jcudit/atom-zenburn/issues"
   }
 }
