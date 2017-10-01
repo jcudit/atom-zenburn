@@ -68,20 +68,20 @@ atom-text-editor {
   color: #568E4D;
 }
 
-.syntax--punctuation.syntax--definition.syntax--comment, .syntax--punctuation.whitespace.syntax--comment {
+.syntax--punctuation.syntax--definition.syntax--comment, .syntax--punctuation.syntax--whitespace.syntax--comment {
   color: #7f9f7f;
 }
 
-.keyword.other.directive {
+.syntax--keyword.other.directive {
   font-weight: bold;
   color: #DEDEDE;
 }
 
-.keyword.other.directive.line-number {
+.syntax--keyword.other.directive.line-number {
   text-decoration: underline;
 }
 
-.constant.character {
+.syntax--constant.syntax--character {
   color: #cc9393;
 }
 
@@ -93,22 +93,22 @@ atom-text-editor {
   color: #D6D6D6;
 }
 
-.constant.numeric {
+.syntax--constant.numeric {
   color: #8cd0d3;
 }
 
-.constant.language, .support.constant.core {
+.syntax--constant.language, .support.syntax--constant.core {
   font-weight: bold;
   /*color: #D6D6AE;*/
   color: #dca3a3;
 }
 
-.constant.character, .constant.other, .support.constant {
+.syntax--constant.syntax--character, .syntax--constant.syntax--other, .support.syntax--constant {
   /*color: #CC9495;*/
   color: #cc9393;
 }
 
-.keyword, .keyword.control, .meta.selector.css, .entity.other.attribute-name {
+.syntax--keyword, .syntax--keyword.control, .meta.selector.css, .entity.other.attribute-name {
   /*color: #FED6AF;*/
   color: #f0dfaf;
 }
@@ -118,15 +118,15 @@ atom-text-editor {
   color: #ffcfaf;
 }
 
-.keyword.operator, .syntax--punctuation.syntax--definition.tag, .syntax--punctuation:not(.syntax--punctuation.syntax--definition.syntax--comment:not(.syntax--punctuation.syntax--definition)) {
+.syntax--keyword.operator, .syntax--punctuation.syntax--definition.tag, .syntax--punctuation:not(.syntax--punctuation.syntax--definition.syntax--comment:not(.syntax--punctuation.syntax--definition)) {
   color: #f0efd0;
 }
 
-.source.ocaml .keyword.operator.symbol.infix.floating-point {
+.source.ocaml .syntax--keyword.operator.symbol.infix.floating-point {
   text-decoration: underline;
 }
 
-.source.ocaml .keyword.operator.symbol.prefix.floating-point {
+.source.ocaml .syntax--keyword.operator.symbol.prefix.floating-point {
   text-decoration: underline;
 }
 
@@ -223,12 +223,12 @@ atom-text-editor {
   color: #D6D6D6;
 }
 
-.keyword.other.DML.sql, .keyword.other.data-integrity.sql {
+.syntax--keyword.other.DML.sql, .syntax--keyword.other.data-integrity.sql {
   font-weight: bold;
   color: #B7B7B7;
 }
 
-.source.sql, .constant.other.database-name.sql, .constant.other.table-name.sql, .keyword.operator.star {
+.source.sql, .syntax--constant.other.database-name.sql, .syntax--constant.other.table-name.sql, .syntax--keyword.operator.star {
   font-weight: bold;
   color: #95BFF3;
 }
@@ -282,11 +282,11 @@ atom-text-editor {
   color: rgba(255, 255, 255, 0.37);
 }
 
-.string.regexp.character-class {
+.string.regexp.syntax--character-class {
   color: #CB8E81;
 }
 
-.syntax--punctuation.syntax--definition.character-class {
+.syntax--punctuation.syntax--definition.syntax--character-class {
   color: rgba(255, 255, 255, 0.37);
 }
 
