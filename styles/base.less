@@ -31,12 +31,12 @@ syntax--atom-text-editor {
   }
 
   .syntax--search-results {
-    .syntax--marker  {
+    .syntax--marker .syntax--region {
       background-color: transparent;
       border: @syntax-result-marker-color;
     }
 
-    .syntax--marker.syntax--current-result  {
+    .syntax--marker.syntax--current-result .syntax--region {
       border: @syntax-result-marker-color-selected;
     }
   }
@@ -45,7 +45,7 @@ syntax--atom-text-editor {
     border-color: @syntax-cursor-color;
   }
 
-  .syntax--selection  {
+  .syntax--selection .syntax--region {
     background-color: @syntax-selection-color;
   }
 
