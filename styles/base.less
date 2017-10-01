@@ -56,19 +56,19 @@ atom-text-editor {
 
 }
 
-.comment {
+.syntax--comment {
   color: #87AE86;
 }
 
-.meta.preprocessor.c {
+.syntax--meta.syntax--preprocessor.syntax--c {
   color: #ffcfaf;
 }
 
-.keyword.other.phpdoc {
+.syntax--keyword.syntax--other.syntax--phpdoc {
   color: #568E4D;
 }
 
-.punctuation.definition.comment, .punctuation.whitespace.comment {
+.syntax--punctuation.syntax--definition.syntax--comment, .syntax--punctuation.whitespace.syntax--comment {
   color: #7f9f7f;
 }
 
@@ -118,7 +118,7 @@ atom-text-editor {
   color: #ffcfaf;
 }
 
-.keyword.operator, .punctuation.definition.tag, .punctuation:not(.punctuation.definition.comment:not(.punctuation.definition)) {
+.keyword.operator, .syntax--punctuation.syntax--definition.tag, .syntax--punctuation:not(.syntax--punctuation.syntax--definition.syntax--comment:not(.syntax--punctuation.syntax--definition)) {
   color: #f0efd0;
 }
 
@@ -179,7 +179,7 @@ atom-text-editor {
   color: #f0dfaf;
 }
 
-.punctuation.section.embedded.begin.php, .punctuation.section.embedded.end.php {
+.syntax--punctuation.section.embedded.begin.php, .syntax--punctuation.section.embedded.end.php {
   color: #898989;
 }
 
@@ -191,7 +191,7 @@ atom-text-editor {
   color: #FED6AF;
 }
 
-.punctuation.definition.variable {
+.syntax--punctuation.syntax--definition.variable {
   color: #D0D1A8;
 }
 
@@ -207,11 +207,11 @@ atom-text-editor {
   color: rgba(120, 206, 204, 0.5);
 }
 
-.punctuation.definition.string.begin, .punctuation.definition.string.end {
+.syntax--punctuation.syntax--definition.string.begin, .syntax--punctuation.syntax--definition.string.end {
   color: rgba(214, 214, 214, 0.5);
 }
 
-.punctuation.definition.tag.begin.html, .punctuation.definition.tag.end.html, .meta.tag.structure.any.html {
+.syntax--punctuation.syntax--definition.tag.begin.html, .syntax--punctuation.syntax--definition.tag.end.html, .meta.tag.structure.any.html {
   color: rgba(254, 213, 174, 0.58);
 }
 
@@ -219,7 +219,7 @@ atom-text-editor {
   color: #FED6AF;
 }
 
-.punctuation.definition.entry {
+.syntax--punctuation.syntax--definition.entry {
   color: #D6D6D6;
 }
 
@@ -238,7 +238,7 @@ atom-text-editor {
   background-color: #393939;
 }
 
-.source.diff .meta.diff.comment, .source.diff .meta.toc-list.comment.diff {
+.source.diff .meta.diff.syntax--comment, .source.diff .meta.toc-list.syntax--comment.diff {
   color: #FFFFFF;
   background-color: #9F9D15;
 }
@@ -278,7 +278,7 @@ atom-text-editor {
   color: #9E6A5F;
 }
 
-.punctuation.definition.arbitrary-repitition {
+.syntax--punctuation.syntax--definition.arbitrary-repitition {
   color: rgba(255, 255, 255, 0.37);
 }
 
@@ -286,7 +286,7 @@ atom-text-editor {
   color: #CB8E81;
 }
 
-.punctuation.definition.character-class {
+.syntax--punctuation.syntax--definition.character-class {
   color: rgba(255, 255, 255, 0.37);
 }
 
@@ -294,7 +294,7 @@ atom-text-editor {
   color: #FED6AF;
 }
 
-.markup.heading.markdown, .punctuation.definition.heading {
+.markup.heading.markdown, .syntax--punctuation.syntax--definition.heading {
   font-weight: bold;
   color: #FFFFFF;
 }
